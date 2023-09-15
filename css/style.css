@@ -27,20 +27,93 @@ body{
 
 .container-main{
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 50px auto;
+}
+
+ul{
+    list-style: none;
+}
+
+li a, .nav-button a{
+    text-decoration: none;
 }
 
 /* -------------------------HEADER */
 
 
 /* --nav */
+nav{
+    font-size: 1.2em;
+    padding: 5px;
+}
 
+.nav-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+
+nav li a{
+    color: black;
+}
+
+.nav-button{
+    background-color: var(--color-main-blue);
+    padding: 5px;
+}
+
+.nav-button a{
+    color: white;
+}
+
+.nav-boxlogo{
+    width: 150px;
+    margin: 8px 5px;
+}
+
+.nav-boxlogo img{
+    width: 100%;
+}
 
 
 /* --hero */
-.hero{
-    background-color: var(--color-hero-bgcolor);
+.hero-flex{
+    display: flex;
 }
+
+.hero{
+    background-color: var(--color-hero-bgcolor);    
+}
+ h1{
+    font-size: 5em;
+    font-weight: 800;
+    margin-bottom: 30px;
+ }
+.hero-all{
+    padding-top: 80px;
+}
+.text-info{
+    max-width: 40%;
+}
+.box-imagehero{
+    min-width: 60%;
+    position: relative;
+}
+
+.box-imagehero img{
+    width: 100%;
+    margin-bottom: -80px;
+}
+
+
+
+
+
+
+
+
+
 /* -------------------------MAIN */
 
 

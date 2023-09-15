@@ -18,6 +18,7 @@
 
 body{
     font-family: 'Karla', sans-serif;
+    font-size: 1.2em;
 }
 
 .wrapper{
@@ -38,12 +39,21 @@ li a, .nav-button a{
     text-decoration: none;
 }
 
+p{
+    line-height: 1.4em;
+}
+
+.btn a{
+    text-decoration: none;
+    background-color: var(--color-blue-checklist);
+    padding: 10px;
+    color: white;
+}
 /* -------------------------HEADER */
 
 
 /* --nav */
 nav{
-    font-size: 1.2em;
     padding: 5px;
 }
 
@@ -83,27 +93,41 @@ nav li a{
 }
 
 .hero{
-    background-color: var(--color-hero-bgcolor);    
+    background-color: var(--color-hero-bgcolor);  
+    position: relative;  
 }
+
  h1{
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 800;
     margin-bottom: 30px;
  }
+
 .hero-all{
     padding-top: 80px;
 }
 .text-info{
-    max-width: 40%;
+    max-width: 35%;
 }
+
 .box-imagehero{
-    min-width: 60%;
+    min-width: 65%;
     position: relative;
 }
 
 .box-imagehero img{
     width: 100%;
     margin-bottom: -80px;
+}
+ 
+.hero-button{
+    margin: 30px 0px;
+}
+
+.arrow i{
+    font-size: 3em;
+    position: absolute;
+    bottom: 0;
 }
 
 
@@ -118,7 +142,9 @@ nav li a{
 
 
 
-
+.big-square{
+    background-color: var(--color-hero-bgcolor);
+}
 
 /* -------------------------FOOTER */
 footer{

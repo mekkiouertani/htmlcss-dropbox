@@ -1,0 +1,54 @@
+/* UTILITY */
+:root {
+	--color-main-blue: #0061ff;
+	--color-hero-bgcolor: #b4d0e7;
+	--color-black-footer: #000000;
+	--color-blue-checklist: #035fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* -------------------------HEADER */
+
+
+/* --nav */
+
+
+
+/* --hero */
+.hero{
+    background-color: var(--color-hero-bgcolor);
+}
+/* -------------------------MAIN */
+
+
+
+
+
+/* -------------------------FOOTER */
+footer{
+    background-color: var(--color-black-footer);
+    color: white;
+}

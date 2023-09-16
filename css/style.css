@@ -4,6 +4,7 @@
 	--color-hero-bgcolor: #b4d0e7;
 	--color-black-footer: #000000;
 	--color-blue-checklist: #035fff;
+    --box-shadow:0px 0px 10px #888888;
 }
 
 *{
@@ -50,6 +51,15 @@ p{
     color: white;
 }
 /* -------------------------HEADER */
+nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: var(--box-shadow)
+/*     height: 50px; */
+}
 
 /* ---:hover */
 nav li:hover{
@@ -96,16 +106,23 @@ nav .nav-button:hover{
     padding: 10px;
     border-radius: 10px;
     font-weight: bold;
-    box-shadow:2px 2px 5px black;
+    box-shadow: 10px 10px 10px #888888;
+
 }
 
 .arrow a:hover + .hidden-text{ 
     display: block;
 }
 
+.arrow i:hover{
+    box-shadow:2px 2px 5px black;
+    border-radius: 50%;
+}
+
 /* --nav */
 nav{
     padding: 5px;
+    background-color: white;
 }
 
 .nav-flex{

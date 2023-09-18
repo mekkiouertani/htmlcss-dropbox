@@ -94,6 +94,16 @@ p{
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.mar-top30{
+    margin-top: 30px;
+}
+
+.pad-top20{
+    padding-top: 20px;
+}
+
+
+
 
 /* -------------------------HEADER */
 nav{
@@ -124,7 +134,7 @@ nav .nav-button:hover{
     font-weight: bold;
 }
 
-.btn a:hover{
+header .btn a:hover{
     font-weight: bold;
     font-size: 1.2em;
     box-shadow: 10px 10px 10px #888888;
@@ -152,7 +162,6 @@ nav .nav-button:hover{
     border-radius: 10px;
     font-weight: bold;
     box-shadow: 10px 10px 10px #888888;
-
 }
 
 .arrow a:hover + .hidden-text{ 
@@ -245,15 +254,73 @@ h1{
 }
 
 
-
-
-
-
-
-
-
 /* -------------------------MAIN */
+main h2{
+    font-size: 2em;
+}
 
+/* -----section 1 piano business*/
+
+.radio label{
+    margin-right: 30px;
+}
+
+.plan h6{
+    font-size: 0.8em;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom:5px;
+}
+
+.plan{
+    border: 1px solid lightgrey;
+    width: 30%;
+    padding: 10px;
+}
+
+.plan-bottom{
+    padding: 30px 0px 30px 10px;
+}
+
+.plan-bottom h5{
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.price-plan p:first-child{
+    font-weight: bold;
+}
+
+.price-plan p:last-child{
+    font-style: italic;
+    font-weight: 400;
+}
+
+span .indent{
+    font-size: 0.9em;
+    padding-left: 5px;
+    text-indent: 50px;
+}
+
+
+.advantage-plan .btn{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+}
+
+.acquista-ora{
+    color: blue;
+}
+
+.acquista{
+    padding-bottom: 50px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.foot-plan i{
+    color: var(--color-blue-checklist);
+}
 
 
 /* -------------big-square */
@@ -280,9 +347,9 @@ h1{
 }
 
 .sqr-middle img{
-filter: invert(0);
-padding-bottom: 60px;
-border-bottom: 1px solid lightgrey;
+    filter: invert(0);
+    padding-bottom: 60px;
+    border-bottom: 1px solid lightgrey;
 }
 
 
@@ -360,7 +427,7 @@ border-bottom: 1px solid lightgrey;
 }
 
 .faq p:last-child{
-    font-family: 300;
+    font-weight: 400;
     padding: 10px;
     background-color: #f5f5f5;
 }
@@ -395,4 +462,8 @@ footer h6{
 .language{
     border-top: 1px solid grey;
     padding-top: 10px;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }

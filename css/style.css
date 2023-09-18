@@ -102,6 +102,13 @@ p{
     padding-top: 20px;
 }
 
+.enterprise h5{
+    font-size: 2em;
+}
+
+.enterprise p.mtb-bottom{
+    font-weight: 700;
+}
 
 
 
@@ -256,7 +263,7 @@ h1{
 
 /* -------------------------MAIN */
 main h2{
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 /* -----section 1 piano business*/
@@ -291,7 +298,7 @@ main h2{
     font-weight: bold;
 }
 
-.price-plan p:last-child{
+.price-plan p:nth-child(2){
     font-style: italic;
     font-weight: 400;
 }
@@ -321,8 +328,56 @@ span .indent{
 .foot-plan i{
     color: var(--color-blue-checklist);
 }
+/* -----section 2 enterprise*/
+.enterprise{
+    width: 100%;
+}
+.f-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
 
+/* -----section 3 entra in contatto*/
 
+.box-imagepartner{
+    width: 60%;
+}
+
+.box-imagepartner img{
+width: 100%;
+}
+
+.text-partner{
+    width: 40%;
+    padding: 50px 20px 50px 30px;
+}
+
+.text-partner a{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    border-bottom: 3px solid grey;
+}
+
+/* -----section 4 dropbox business*/
+
+.box-imgcard img{
+    width: 100%;
+}
+
+.card{
+    width: 30%;
+}
+
+.text-card h4{
+    font-size: 1.2em;
+    font-weight: 800;
+}
+/* -----section 4 dropbox business*/
+.clienti a{
+    color: blue;
+}
 /* -------------big-square */
 
 .square{
@@ -391,8 +446,6 @@ span .indent{
 }
 
 
-
-
 /* SEZIONE BG COLOR CARAMELLA */
 .bg-candycolor{
     background-color: var(--color-hero-bgcolor);
@@ -408,8 +461,8 @@ span .indent{
     padding: 10px 25px;
     background-color: #f5f5f5;
     color: black;
+    text-decoration: underline;
 }
-
 
 /* SEZIONE FAQ */
 
@@ -417,7 +470,6 @@ span .indent{
     font-size: 1.8em;
     padding-bottom: 50px;
     border-bottom: 2px solid lightgrey;
-
 }
 
 .row{

@@ -596,18 +596,15 @@ footer a:hover{
     position: absolute;
     display: none;
     background-color: #b8b8b8;
-    padding: 20px 10px 10px 10px;
-    top: 50px;
+    padding: 10px 10px 10px 10px;
+    top: 62px;
     right: 0px;
     border-bottom-left-radius: 25px;
+    min-width: 150px;
 }
 
 .drop-1{
     width: 191px;
-}
-
-.drop-2 .dropdown-content{
-    width: 115px;
 }
 
 .drop-3 .dropdown-content{

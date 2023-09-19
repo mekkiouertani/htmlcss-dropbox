@@ -584,7 +584,7 @@ footer a:hover{
 }
 
 .dropdown-content li{
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .dropdown:hover .dropdown-content{

@@ -127,7 +127,6 @@ nav{
 nav li:hover{
     background-color: rgba(113, 113, 113, 0.5);
     padding: 17px 10px;
-/*     border-radius: 10px; */
     font-size: 1.2em;
     font-weight: bold;
 }
@@ -303,10 +302,15 @@ main h2{
     font-weight: 400;
 }
 
-span .indent{
+.indent{
     font-size: 0.9em;
-    padding-left: 5px;
-    text-indent: 50px;
+    padding-left: 20px;
+    text-indent: -10px;
+    list-style: none;
+}
+
+.indent i{
+/*     padding-right: 10px; */
 }
 
 
@@ -519,3 +523,26 @@ footer h6{
 footer a:hover{
     text-decoration: underline;
 }
+
+
+/* A COMPARSA SU NAV */
+#slot-1{
+    position: relative;
+}
+.comparsa{
+    font-weight: 300;
+    width: 191px;
+    text-align: left;
+    font-size: 0.8em;
+    position: absolute;
+    display: none;
+    top: 50px;
+    left: 200px;
+    background-color: #b8b8b8;
+    padding: 0px 10px;
+}
+
+#slot-1:hover + .comparsa{
+    display: block;
+}
+

@@ -370,6 +370,7 @@ width: 100%;
     width: 100%;
 }
 
+
 .card{
     width: 30%;
 }
@@ -378,6 +379,15 @@ width: 100%;
     font-size: 1.2em;
     font-weight: 800;
 }
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
 /* -----section 4 dropbox business*/
 .clienti a{
     color: blue;
@@ -542,7 +552,8 @@ footer a:hover{
     padding: 0px 10px;
 }
 
-#slot-1:hover + .comparsa{
+/* #slot-1:hover + .comparsa{
     display: block;
 }
 
+ */

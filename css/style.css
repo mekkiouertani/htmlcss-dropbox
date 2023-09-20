@@ -597,7 +597,7 @@ footer a:hover{
     display: none;
     background-color: #b8b8b8;
     padding: 10px 10px 10px 10px;
-    top: 62px;
+    top: 61px;
     right: 0px;
     border-bottom-left-radius: 25px;
     min-width: 150px;
@@ -611,16 +611,30 @@ footer a:hover{
     width: 165px;
 }
 
+.drop-4 {
+    min-width: 400px;
+}
+
+.drop-4 ul{
+    width: calc(50% - 20px);
+}
+
 .dropdown-content li{
     padding-bottom: 15px;
 }
 
 .dropdown:hover .dropdown-content{
-    display: block;
+    display: inline-block;
 }
 
-.dropdown-content li{
-    list-style: 
+.drop-4 ul{
+    margin-left: 20px;
+    float: left;
+}
+
+.drop-4 h5{
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 .dropdown-content img{
